@@ -1,18 +1,21 @@
 {
     "component_name": "page_details_cards_component",
-    "id": "page_details_cards_component_1724936324.js",
+    "id": "page_details_cards_component_1724936324",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "<!--\nINSTRUCTION: Summary: Contains a section with three cards with black background and white text. The three cards are side by side and each contains a detail name in bold above a detail value.\n-->\n\n<template>\n  <section id=\"page-details-cards-component\" class=\"py-8 bg-white\">\n    <h2 id=\"details-title\" class=\"text-lg font-semibold mb-5 pl-4\">Details</h2>\n    <ul id=\"details-list\" class=\"grid gap-4 min-[480px]:grid-cols-3 text-sm\">\n      <li id=\"project-length\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n        <div class=\"font-medium text-slate-200\">Quality Ingredients</div>\n        <div class=\"text-slate-400\">Our hot dogs are crafted using premium meats and freshly baked buns for an unbeatable taste experience.</div>\n      </li>\n      <li id=\"start-date\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n        <div class=\"font-medium text-slate-200\" id=\"start-date-des-1\">Variety of Flavors</div>\n        <time class=\"text-slate-400\" id=\"start-time-des-1\">From classic frankfurters to gourmet creations, we offer a wide range of hot dog styles to satisfy every craving.</time>\n      </li>\n      <li id=\"end-date\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n        <div class=\"font-medium text-slate-200\" id=\"end-date-des-1\">Fast & Friendly Service</div>\n        <time class=\"text-slate-400\" id=\"end-time-des-1\">Enjoy quick, efficient service with a smile, ensuring you get your delicious hot dog fix in no time.</time>\n      </li>\n    </ul>\n  </section>\n</template>\n\n<script>\nexport default {\n  name: \"PageDetailsCardsComponent\",\n  data() {\n    return {\n      expanded: false,\n      tab: null,\n    };\n  },\n};\n</script>\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
-    "i": "__dropping-elem__",
+    "x": 0,
+    "y": 32,
+    "i": "4",
     "minW": 3,
     "maxW": 12,
     "minH": 1,
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
