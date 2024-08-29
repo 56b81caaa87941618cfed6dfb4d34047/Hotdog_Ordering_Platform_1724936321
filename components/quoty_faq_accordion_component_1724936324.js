@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Sizzling Hot FAQ</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What makes our hotdogs special?", description: "Our hotdogs are made from premium, locally-sourced meats and come in a variety of unique flavors. We use artisanal buns and offer a wide range of gourmet toppings to create the perfect hotdog experience.", expanded: false },
+        { title: "Do you offer vegetarian options?", description: "Absolutely! We have delicious plant-based hotdogs that are just as flavorful as our meat options. They're perfect for vegetarians or anyone looking to try something different.", expanded: false },
+        { title: "Can I customize my hotdog?", description: "Of course! We encourage creativity. Choose your favorite bun, sausage, and toppings to create your perfect hotdog. We also offer signature combinations if you prefer to leave it to the experts.", expanded: false },
+        { title: "Do you cater for events?", description: "Yes, we do! Our mobile hotdog stand is perfect for parties, corporate events, and weddings. We bring the hotdog experience to you, ensuring your guests enjoy fresh, delicious hotdogs made on-site.", expanded: false }
       ]
     };
   },
