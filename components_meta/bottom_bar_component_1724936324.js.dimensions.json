@@ -1,18 +1,21 @@
 {
     "component_name": "bottom_bar_component",
-    "id": "bottom_bar_component_1724936324.js",
+    "id": "bottom_bar_component_1724936324",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "<!--\nINSTRUCTION: Summary: Contains a bar fixed at the bottom of the page with a transparent background with a blur effect.\nINSTRUCTION: It has two buttons: Contact button that directs to the contact page and Pay button that directs to the payment page, styled with a blue background and a shine animation effect.\n-->\n<template>\n  <section\n    id=\"bottom-bar-component\"\n    class=\"fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950\"\n  >\n    <div\n      id=\"bottom-bar-component-content\"\n      class=\"w-full max-w-xl mx-auto px-4 sm:px-6\"\n    >\n      <div\n        id=\"action-buttons\"\n        class=\"flex py-4 md:py-6 space-x-4 justify-center\"\n      >\n        <a\n          id=\"contact-button\"\n          class=\"btn flex items-center justify-center w-1/2 h-12 p-3 text-slate-900 dark:text-slate-200 dark:bg-slate-900 rounded-lg hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 border shadow-lg transition duration-200 ease-in-out\"\n          href=\"contact.html\"\n        >\n          Contact\n        </a>\n        <a\n          id=\"pay-button\"\n          class=\"btn flex items-center justify-center w-1/2 h-12 p-3 animate-shine bg-[size:200%_100%] hover:bg-[image:none] transition duration-200 ease-in-out shadow-lg text-white bg-blue-500 hover:bg-blue-600 rounded-lg bg-[linear-gradient(100deg, theme(colors.blue.500), 45%, theme(colors.blue.400), 55%, theme(colors.blue.500))] rounded-lg\"\n        >\n          Pay\n        </a>\n      </div>\n    </div>\n  </section>\n</template>\n\n<script>\nexport default {\n  name: \"BottomBarComponent\",\n  data() {\n    return {\n      expanded: false,\n      tab: null,\n    };\n  },\n};\n</script>\n\n<style scoped>\n/* Add your component specific styles here */\n</style>\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
-    "i": "__dropping-elem__",
+    "x": 0,
+    "y": 0,
+    "i": "0",
     "minW": 3,
     "maxW": 12,
     "minH": 1,
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
