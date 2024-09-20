@@ -5,7 +5,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 -->
 
 <template>
-  <section class="py-8 bg-white pl-4">
+  <section class="py-4 bg-white pl-4">
     <h2 class="text-lg font-semibold mb-5">Sizzling Hot FAQ</h2>
     <!-- Accordion -->
     <div class="space-y-3">
