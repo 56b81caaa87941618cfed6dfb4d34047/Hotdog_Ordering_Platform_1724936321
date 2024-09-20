@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "Can you make the height smaller?",
+        "message_id": "guest20092024133259",
+        "timestamp": "20092024133259",
+        "component_file_name": "quoty_faq_accordion_component_1724936324",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
