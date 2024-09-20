@@ -2,5 +2,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: Can you make the height smaller?\n\nThis is the user's current request of changes to be made:\nCan you make the height smaller?"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: Make the height about half as much\nAI: Sure, I will work on making the height smaller.\nUser: Can you make the height smaller?\n\nThis is the user's current request of changes to be made:\nMake the height about half as much"
     }
 ]

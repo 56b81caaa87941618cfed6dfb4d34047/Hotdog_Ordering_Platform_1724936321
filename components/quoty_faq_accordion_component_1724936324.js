@@ -5,10 +5,10 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 -->
 
 <template>
-  <section class="py-4 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">Sizzling Hot FAQ</h2>
+  <section class="py-2 bg-white pl-4">
+    <h2 class="text-base font-semibold mb-3">Sizzling Hot FAQ</h2>
     <!-- Accordion -->
-    <div class="space-y-3">
+    <div class="space-y-2">
       <!-- Accordion item -->
       <div
         v-for="(term, index) in terms"
@@ -18,16 +18,16 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
         <h3>
           <button
             type="button"
-            class="flex items-center justify-between w-full text-left font-medium px-5 py-3"
+            class="flex items-center justify-between w-full text-left font-medium px-3 py-2"
             @click="toggle(index)"
             :aria-expanded="term.expanded"
             :aria-controls="'terms-text-' + index"
           >
             <span>{{ term.title }}</span>
             <svg
-              class="shrink-0 ml-8 fill-slate-400 dark:fill-slate-500"
-              width="12"
-              height="12"
+              class="shrink-0 ml-4 fill-slate-400 dark:fill-slate-500"
+              width="10"
+              height="10"
               xmlns="http://www.w3.org/2000/svg"
             >
               <rect
@@ -57,7 +57,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
           :class="[{ 'grid-rows-[1fr] opacity-100': term.expanded, 'grid-rows-[0fr] opacity-0': !term.expanded }]"
         >
           <div class="overflow-hidden" :id="'terms-text-' + index + '-content'">
-            <p class="px-5 pb-3" :id="'terms-text-' + index + '-description'">
+            <p class="px-3 pb-2 text-xs" :id="'terms-text-' + index + '-description'">
               {{ term.description }}
             </p>
           </div>
