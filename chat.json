@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"failure\", \"qna\": [], \"error\": \"qnaExpecting ',' delimiter: line 2 column 210 (char 366)\", \"time_taken\": \"0:00:03.159573\"}",
+        "message_id": "guest20092024133322",
+        "timestamp": "20092024133330",
+        "component_file_name": "quoty_faq_accordion_component_1724936324",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Make the height about half as much",
         "message_id": "guest20092024133322",
