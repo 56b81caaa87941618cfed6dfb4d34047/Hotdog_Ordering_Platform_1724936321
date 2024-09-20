@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific section of the website do you want to adjust the height for?\", \"option1\": \"Header section\", \"option2\": \"Content section\"}, {\"question 2\": \"By how much would you like to reduce the height?\", \"option1\": \"By 20%\", \"option2\": \"By 50%\"}], \"input_token_count\": 289, \"output_token_count\": 81, \"time_taken\": \"0:00:01.100278\"}",
+        "message_id": "guest20092024133259",
+        "timestamp": "20092024133304",
+        "component_file_name": "quoty_faq_accordion_component_1724936324",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I will work on making the height smaller.",
         "message_id": "guest20092024133259",
